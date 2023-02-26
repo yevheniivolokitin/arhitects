@@ -1,0 +1,203 @@
+body {
+    width: 1440px;
+}
+html{
+    scroll-behavior: smooth;
+}
+header {
+    color: rgba(0, 0, 0, 0.654);
+    font-size: 25px;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    padding: 10px 0px 10px 40px;
+    z-index: 1;
+}
+
+.br {
+    padding-right: 20px;
+    color: black;
+}
+
+header>.menu>a {
+    opacity: 0.7;
+    text-decoration: none;
+    padding-left: 40px;
+    color: rgba(128, 128, 128, 0.717);
+}
+
+.menu {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+main{
+    background-image: url("../img/architect.jpg" );
+    height: 800px;
+}
+main>h2{
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+    padding-top: 400px;
+    opacity: 0.6;
+    color: white;
+}
+.blek{
+    padding: 10px;
+    background-color: black;
+    opacity: 0.9;
+    z-index: 0;
+}
+article{
+    display: flex;
+    width: 1380px;
+    margin: 30px 0px 30px 30px;
+}
+.project>h2{
+    font-size: 20px;
+}
+.img{
+    width: 1380px;
+    display: flex;
+    justify-content: space-around;
+}
+.img>img{
+    width: 300px;
+    padding: 20px 0px 20px 0px;
+    z-index: 0;
+}
+.s {
+    position: absolute;
+    bottom: -165px;
+    left: 53px;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color: white;
+}
+.b {
+    position: absolute;
+    bottom: -165px;
+    left: 398px;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color: white;
+}
+.r {
+    position: absolute;
+    bottom: -165px;
+    left: 743px;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color: white;
+}
+.baaa {
+    position: absolute;
+    bottom: -165px;
+    left: 1088px;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color: white;
+}
+.sa {
+    position: absolute;
+    bottom: -405px;
+    left: 53px;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color: white;
+}
+.ba {
+    position: absolute;
+    bottom: -405px;
+    left: 398px;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color: white;
+}
+.ra {
+    position: absolute;
+    bottom: -405px;
+    left: 743px;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color: white;
+}
+.baa {
+    position: absolute;
+    bottom: -405px;
+    left: 1088px;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color: white;
+}
+section{
+    padding: 30px 30px 0px 30px;
+    width: 1380px;
+}
+section>h2{
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+.about{
+    display: flex;
+}
+.john>img{
+    width: 322px;
+    padding-right: 22px;
+    padding-bottom: 25px;
+}
+.jane>img{
+    width: 322px;
+    padding-right: 22px;
+    padding-bottom: 25px;
+}
+.mike>img{
+    width: 322px;
+    padding-right: 22px;
+    padding-bottom: 25px;
+}
+.dan>img{
+    width: 322px;
+    padding-right: 22px;
+    padding-bottom: 25px;
+}
+.h2{
+    font-size: 26px;
+    color: black;
+    padding-bottom: 20px;
+}
+.h3{
+    font-size: 22px;
+    color: grey;
+    padding-bottom: 15px;
+}
+.h4{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.button{
+    font-size: 15px;
+    width: 320px;
+    height: 40px;
+    border : none;
+}
+footer{
+    margin: 30px 30px 20px 30px;
+    width: 1380px;
+    height: 838px;
+    background-image: url("../img/map.jpg");
+}
+.ter{
+    margin-top: 20px;
+    width: 1380px;
+    background-color: black;
+    position: absolute;
+    top: 2890px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
